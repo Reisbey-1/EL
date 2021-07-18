@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CWinELDlg">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CWinELDlg::__unnamed_enum_000f_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WinELDlg.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAKBAAEgAAAAAAgEABAAIAAQAAAAAEQIAEAkAAAQAAA=</HashCode>
+      <FileName>WinELDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MdCommon::CPerformanceCounter">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAABSAIAEAAAAIAAAQAAAAAAAAAABQgIAA=</HashCode>
+      <FileName>c:\sw\MdCommon\implement\PerformanceCounter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

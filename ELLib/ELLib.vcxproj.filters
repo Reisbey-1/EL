@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Lift">
+      <UniqueIdentifier>{cd23c2a9-23c6-4e6f-a8d8-2c4652bd4c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hall">
+      <UniqueIdentifier>{154f3014-d66d-4b12-91c9-c5b8dea29acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Building">
+      <UniqueIdentifier>{efceafee-eca0-43dc-aaed-88c9b9867fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Passenger">
+      <UniqueIdentifier>{d0dcd7cb-e327-484c-a7f7-102fcec42631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ELLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ellib_include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevator.h">
+      <Filter>Lift</Filter>
+    </ClInclude>
+    <ClInclude Include="Lift.h">
+      <Filter>Lift</Filter>
+    </ClInclude>
+    <ClInclude Include="Hall.h">
+      <Filter>Hall</Filter>
+    </ClInclude>
+    <ClInclude Include="HallState.h">
+      <Filter>Hall</Filter>
+    </ClInclude>
+    <ClInclude Include="ElevatorState.h">
+      <Filter>Lift</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>Building</Filter>
+    </ClInclude>
+    <ClInclude Include="Passenger.h">
+      <Filter>Passenger</Filter>
+    </ClInclude>
+    <ClInclude Include="RelativeRqst.h">
+      <Filter>Building</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ELLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Elevator.cpp">
+      <Filter>Lift</Filter>
+    </ClCompile>
+    <ClCompile Include="Lift.cpp">
+      <Filter>Lift</Filter>
+    </ClCompile>
+    <ClCompile Include="Hall.cpp">
+      <Filter>Hall</Filter>
+    </ClCompile>
+    <ClCompile Include="HallState.cpp">
+      <Filter>Hall</Filter>
+    </ClCompile>
+    <ClCompile Include="ElevatorState.cpp">
+      <Filter>Lift</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>Building</Filter>
+    </ClCompile>
+    <ClCompile Include="Passenger.cpp">
+      <Filter>Passenger</Filter>
+    </ClCompile>
+    <ClCompile Include="RelativeRqst.cpp">
+      <Filter>Building</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

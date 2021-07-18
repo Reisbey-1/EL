@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ELLib::CBuilding">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAIAIAAA=</HashCode>
+      <FileName>Building.h</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="m_pStairVector" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ELLib::CLift">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAA=</HashCode>
+      <FileName>Lift.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ELLib::CElevatorState">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAQQAAICCAEAAwAAAEBAAECBCACJGDhQQTEAEA=</HashCode>
+      <FileName>ElevatorState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ELLib::CRelativeRqst">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ELLib::CRelativeRqst::__unnamed_enum_0020_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RelativeRqst.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAABCABAARAiAAAEAQABCBAgAABABAgAAAAA=</HashCode>
+      <FileName>RelativeRqst.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ELLib::CHallState">
+    <Position X="9" Y="0.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAmgAAIgEAAAAkAAAAAACBAQEYGAgAACAIAA=</HashCode>
+      <FileName>HallState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ELLib::CHall">
+    <Position X="9" Y="2.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEQAAECAAAAACIAAAABEEQCAAEICgAAFBAQAQBAEMAA=</HashCode>
+      <FileName>Hall.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pBuilding" />
+      <Field Name="m_PassengerMatrix" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ELLib::CElevator" Collapsed="true">
+    <Position X="3" Y="2.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAIAEyAQQAEiACCAAhEUQNCAAECQKQBZQQQQLJEAAA=</HashCode>
+      <FileName>Elevator.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pPassengerList" />
+      <Field Name="m_pBuilding" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ELLib::CPassenger" Collapsed="true">
+    <Position X="12.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAEAAAACAAAAQAAAAAAABQCAAggAQAAAAA=</HashCode>
+      <FileName>Passenger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dtl::L_List&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAIABKAAAABAICAAAQABCAAAAAAAAIAAAAIFSAgAAA=</HashCode>
+      <FileName>c:\sw\dtl\implement\LinkedList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
